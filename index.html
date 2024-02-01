@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <nav class="navbar">
+        <div class="logo">QUIZ</div>
+        <div class="nav-buttons">
+            <button id="resetQuiz" class="nav-button">Reset Quiz</button>
+            <button id="submitQuiz" class="nav-button">Submit Quiz</button>
+        </div>
+    </nav>
+
+    <div class="quiz-container">
+        <div id="questionInfo" class="question-info">
+            <span id="questionType" class="question-type"></span>
+            <span id="marksWeightage" class="marks-weightage"></span>
+        </div>
+        <div id="question"></div>
+        <div class="options" id="options"></div>
+        <div id="timer"></div>
+        <div id="score"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
